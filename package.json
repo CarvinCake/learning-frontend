@@ -7,7 +7,7 @@
 		"start": "vite",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
-		"deploy": "tar -a -c -f dist.zip dist && scp dist.zip root@164.92.214.129:~/../var/www/carvin.gq/"
+		"deploy": "tar -a -c -f dist.zip dist && scp dist.zip thpk@164.92.214.129:~/../../var/www/carvin.gq/"
 	},
 	"devDependencies": {
 		"@typescript-eslint/eslint-plugin": "^5.40.0",

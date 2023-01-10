@@ -136,7 +136,7 @@ body {
 }
 
 .navigation__button:hover {
-  box-shadow: 4px 8px var(--main-color);
+  box-shadow: 8px 12px var(--main-color);
 }
 
 .navigation__button--current {
