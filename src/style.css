@@ -10,7 +10,7 @@ body {
   background-color: var(--background-color);
   margin: 0;
 }
-@supports(scrollbar-color: red blue) {
+@supports (scrollbar-color: red blue) {
   * {
     scrollbar-color: var(--main-color) #a29bfe;
     scrollbar-width: auto;
@@ -93,7 +93,7 @@ body {
   color: var(--main-color);
 }
 
-.header__button--current{
+.header__button--current {
   box-shadow: 2.2px 5px var(--background-color);
 }
 
@@ -112,10 +112,10 @@ body {
   border-radius: 0;
   color: var(--main-color);
   display: flex;
-  flex-basis: 20%;
+  flex-basis: 25%;
   flex-direction: column;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex-grow: 0;
+  flex-shrink: 0;
   font-size: large;
   justify-content: start;
   padding: 50px 10px 50px 5%;
@@ -131,7 +131,7 @@ body {
   font-size: 1.3em;
   margin-top: 50px;
   outline: inherit;
-  padding: 0;
+  padding: 0.5rem 1rem;
   transition: box-shadow, 0.25s;
 }
 
