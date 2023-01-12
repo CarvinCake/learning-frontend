@@ -5,8 +5,8 @@
 }
 html,
 body {
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
   background-color: var(--background-color);
   margin: 0;
 }
@@ -39,6 +39,17 @@ body {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+}
+
 .v-container {
   border: var(--main-color) 5px solid;
   position: absolute;
@@ -56,19 +67,19 @@ body {
   background-color: var(--main-color);
   color: #a29bfe;
   display: flex;
-  flex-basis: 5rem;
+  flex-basis: 10vh;
   flex-direction: row;
   flex-grow: 0;
-  flex-shrink: 0.8;
+  flex-shrink: 0;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   padding: 20px;
 }
 
-#logo {
+.header__logo {
   flex-basis: 25%;
-  font-size: x-large;
-  padding-top: 20px;
+  font-size: 1.5em;
+  padding-top: 0.7em;
 }
 
 .header__button {
@@ -84,7 +95,7 @@ body {
   margin: 10px 20px;
   max-height: 100px;
   min-height: 50px;
-  padding: 10px;
+  padding: 0.5em;
   transition: color, background-color, 0.25s;
 }
 
@@ -154,21 +165,17 @@ body {
   padding: 40px;
 }
 
-.content p {
+.mono-paragraph {
   flex-basis: auto;
   font-family: "Roboto Mono", monospace;
   font-size: large;
   font-style: 0;
   font-weight: 600;
   margin: 0;
-  padding: 50px;
+  padding: 10px;
 }
 
-.content .poem {
-  font-style: italic;
-  font-weight: 200;
+#poem {
   justify-content: center;
-  margin: 50px auto;
-  padding: 50px auto;
   text-align: center;
 }
